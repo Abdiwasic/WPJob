@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+.container {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 35 37 / var(--tw-bg-opacity));
+    font-family: 'Open Sans', sans-serif;
+}
+.find-job-title {
+    word-spacing: 0.3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2rem;
+}
+.sub-title {
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));;
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    font-weight: 200;
+}
+
+@media (min-width: 1024px) {
+.container {
+    max-width: 100%;
+}
+}

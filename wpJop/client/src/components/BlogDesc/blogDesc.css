@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto:wght@300;400&display=swap');
+:root {
+    --open-sans: 'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+}
+.blog-single-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 25rem;
+    font-family: var(--roboto);
+}
+.blog-single-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--poppins);
+    padding-bottom: 1rem;
+}
+.blog-single-description {
+    font-family: var(--open-sans);
+    font-weight: 400;
+    border-bottom: 1px solid rgb(183, 183, 183);
+}
+.blog-single-description h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.final-desc {
+    margin-bottom: 2rem;
+
+}
+.blog-single-user-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3.5rem;
+}
+.blog-single-user-container .arthur{
+    position: absolute;
+    top: -2rem;
+    font-weight: bold;
+    margin-left: .5rem;
+}
+.blog-single-user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-single-user-info > h1 {
+    font-weight: 600;
+}
+.blog-single-user-info img {
+    margin-right: 1rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.blog-single-user-media {
+    display: flex;
+}
+.blog-single-user-media img {
+    width: 1rem;
+    margin-right: 1rem;
+}
+.comments-container {
+    width: 100%;
+}
+.comments-container h1 {
+    text-align: start;
+    font-size: 2rem;
+    font-family: var(--poppins);
+}
+.comments-input {
+    display: flex;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    border-top: 1px solid rgb(183, 183, 183);
+}
+.comments-input textarea {
+    border: 1px solid rgb(183, 183, 183);
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.comments-user-img img {
+    margin-right: 1rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn-cancell {
+    background-color: rgb(183, 183, 183);
+    color: black;
+    padding: 0 .5rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-publish {
+    background-color: black;
+    color: white;
+    padding: 0 .5rem;
+    border-radius: 5px;
+}.comments-poster {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.comments-poster img {
+    margin-right: 1rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.comments-poster h2 {
+    font-weight: 600;
+}
+.comments-content h3 {
+    padding: 0 5rem;
+}

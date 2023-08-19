@@ -1,0 +1,13 @@
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-btn {
+    display: flex;
+    margin-left: 3rem;
+}
+.header-nav h1 {
+    font-weight: 500;
+    padding-right: 1rem;
+}
